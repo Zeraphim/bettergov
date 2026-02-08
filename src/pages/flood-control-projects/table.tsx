@@ -47,6 +47,7 @@ const meiliSearchInstance = instantMeiliSearch(
   {
     primaryKey: 'GlobalID',
     keepZeroFacets: true,
+    limit: 10000,
   }
 );
 
@@ -924,7 +925,7 @@ const FloodControlProjectsTable: FC = () => {
                 future={{ preserveSharedStateOnUnmount: true }}
               >
                 <Configure
-                  hitsPerPage={1000}
+                  hitsPerPage={10000}
                   filters={buildFilterString()}
                   query={getEffectiveSearchTerm()}
                 />
