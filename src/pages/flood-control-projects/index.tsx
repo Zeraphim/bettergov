@@ -48,7 +48,7 @@ import infraYearData from '../../data/flood_control/lookups/InfraYear_with_count
 import legislativeDistrictData from '../../data/flood_control/lookups/LegislativeDistrict_with_counts.json';
 import provinceData from '../../data/flood_control/lookups/Province_with_counts.json';
 import regionData from '../../data/flood_control/lookups/Region_with_counts.json';
-import summaryData from '../../data/flood_control/lookups/summary.json';
+import summaryData from '../../data/flood_control/lookups/Projects_Cost_UniqueContractors_Summary.json';
 import typeOfWorkData from '../../data/flood_control/lookups/TypeofWork_with_counts.json';
 import { useSearchParams } from 'react-router-dom';
 

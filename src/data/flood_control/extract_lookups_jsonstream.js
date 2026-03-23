@@ -129,7 +129,10 @@ function processFile() {
       console.log(`Saved ${values.length} unique values for ${field}`);
     }
 
-    const summaryPath = path.join(outputDir, 'summary.json');
+    const summaryPath = path.join(
+      outputDir,
+      'Projects_Cost_UniqueContractors_Summary.json'
+    );
     fs.writeFileSync(
       summaryPath,
       JSON.stringify(
