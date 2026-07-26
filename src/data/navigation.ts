@@ -15,7 +15,7 @@ interface Category {
 export const ourProjects = [
   {
     label: 'Our Projects',
-    href: '#',
+    href: '/projects',
     children: [
       {
         label: '2026 Budget Tracker',
@@ -140,6 +140,7 @@ export const mainNavigation: NavigationItem[] = [
       { label: 'Departments', href: '/government/departments' },
       { label: 'Constitutional', href: '/government/constitutional' },
       { label: 'Legislative', href: '/government/legislative' },
+      { label: 'Judicial', href: '/government/judicial' },
       { label: 'Local Government', href: '/government/local' },
       { label: 'Diplomatic', href: '/government/diplomatic' },
       { label: 'Salary Grades', href: '/government/salary-grade' },
